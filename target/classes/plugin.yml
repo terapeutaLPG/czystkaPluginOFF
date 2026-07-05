@@ -1,0 +1,22 @@
+name: CzystkaPlugin
+version: 1.0.0
+main: pl.czystkaplugin.CzystkaPlugin
+api-version: 1.16
+author: jaruso99
+commands:
+  wykonajclear:
+    description: Zaplanuj jednorazowe czyszczenie inventory dla gracza.
+    usage: /wykonajclear <nick>
+  wykonajclearanuluj:
+    description: Anuluj zaplanowane jednorazowe czyszczenie inventory dla gracza.
+    usage: /wykonajclearanuluj <nick>
+permissions:
+  czystka.clear:
+    description: Pozwala uzywac /wykonajclear.
+    default: op
+  czystka.clear.cancel:
+    description: Pozwala uzywac /wykonajclearanuluj.
+    default: op
+  czystka.notify:
+    description: Otrzymuje informacje o wykonanych czyszczeniach.
+    default: op

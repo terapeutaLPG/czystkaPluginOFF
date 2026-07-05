@@ -1,0 +1,7 @@
+pl\czystkaplugin\PendingClear.class
+pl\czystkaplugin\ClearCancelCommand.class
+pl\czystkaplugin\CzystkaPlugin.class
+pl\czystkaplugin\PlayerLifecycleListener.class
+pl\czystkaplugin\ClearNotification.class
+pl\czystkaplugin\ClearStorage.class
+pl\czystkaplugin\ClearCommand.class
